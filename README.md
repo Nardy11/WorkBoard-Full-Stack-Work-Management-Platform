@@ -62,7 +62,7 @@ k6/          Load-test scenarios
    - Web: http://localhost:3000
    - API: http://localhost:3001
    - Swagger: http://localhost:3001/docs
-   - Health: http://localhost:3001/health
+   - Health: http://localhost:3001/api/health
 
 ## Validation
 
