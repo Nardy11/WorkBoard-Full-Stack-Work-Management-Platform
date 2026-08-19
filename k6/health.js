@@ -19,7 +19,7 @@ export const options = {
 };
 
 export default function () {
-  const response = http.get('http://localhost:3001/health');
+  const response = http.get('http://localhost:3001/api/health');
   check(response, { 'health endpoint returns 200': (r) => r.status === 200 });
   sleep(1);
 }
